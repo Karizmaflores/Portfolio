@@ -184,8 +184,19 @@ p{
   font-family: 'Prompt', sans-serif;
 }
 
+.about .Exp-Container .text h4{
+  text-transform: uppercase;
+  font-family: 'Prompt', sans-serif;
+  color: #ff71f3;
+}
 
+.skillsBox ul li{
+  list-style: none;
+}
 
+.skillsBox ul li .icon{
+  color: #ff71f3;
+}
 
 
 
