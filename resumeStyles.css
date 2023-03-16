@@ -29,6 +29,19 @@ body{
   padding: 40px;
 }
 
+.container-fluid .right{
+  position: relative;
+  padding: 40px;
+}
+
+.about{
+  margin-bottom: 50px;
+}
+
+.about:last-child{
+  margin-bottom: 0;
+}
+
 .picText{
   display: flex;
   flex-direction: column;
@@ -104,13 +117,29 @@ body{
   font-family: "open sans";
 }
 
+.contact.languages .percent{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  display: block;
+  background:#50338e;
+  margin-top: 5px;
+}
+
+.contact.languages .percent div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #ff71f3;
+}
+
 a{
   font-family: 'Open Sans', sans-serif;
   color: rgb(90, 90, 90);
   font-size: 20px;
   margin-top: 20px;
 }
-
 
 h2{
   font-family: 'Prompt', sans-serif;
@@ -125,9 +154,35 @@ h2 span{
   font-family: "open sans";
 }
 
+.title2{
+  color: #915dff;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: 'Prompt', sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 
+p{
+  color: rgb(101, 101, 101);
+}
 
+.about .Exp-Container{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
 
+.about .Exp-Container .year{
+  min-width: 150px;
+}
+
+.about .Exp-Container .year h5{
+  text-transform: uppercase;
+  color: rgb(101, 101, 101);
+  font-size: 15px;
+  font-family: 'Prompt', sans-serif;
+}
 
 
 
