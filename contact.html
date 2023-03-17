@@ -6,7 +6,7 @@
   <title>Contact Me</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="./reset.css"> -->
-  <link rel="stylesheet" href="./portfolioStyles.css">
+  <link rel="stylesheet" href="./contactStyles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Prompt:wght@600&display=swap" rel="stylesheet">
@@ -36,31 +36,36 @@
     </div>  
   </nav>
 
-  <section class="contactMe" id="contact">
-  <div class="container-fluid">
-      <div class="row justify content-center min-vh-100">
-        <div class="col">
-          <div class="main-text text-center">
-            <p class="mb-1">Have a project?</p>
-            <h2>Contact Me</h2>
-            <!-- <h1> a Web developer</h1> -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iste ex veniam, fugiat fuga inventore ullam voluptas ad, ducimus similique esse sed voluptatibus labore accusamus deleniti maiores recusandae praesentium possimus!</p>
-            <a href="./workGallery.html" class="btn">My Work</a>
-          </div>
-        </div>
+    <h1 class="text-center">Contact Me!</h1>
+    <div class="container mt-5">
+    <form class="row">
+      <div class="col-md-6">
+          <label for="firstName" class="label">First Name</label>
+          <input type="text" class="form-control" id="firstName" required>
+      </div>
+      <div class="col-md-6">
+        <label for="lastName" class="label">Last Name</label>
+        <input type="text" class="form-control" id="lastName" required>
+      </div>
+      <div class="col-md-8  mt-3">
+        <label for="email" class="label">E-mail</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="col-md-4 mt-3">
+        <label for="phone" class="label">Phone Number</label>
+        <input type="text" class="form-control" id="phone">
+      </div>
+      <div class="col-md-12 mt-3">
+        <label for="comments" class="label">Comments</label>
+        <textarea class="form-control" id="comments" rows="4" required></textarea>
+      </div>
+      <div class="col-md-12 mt-4 text-center">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
 
-        <!-- <div class="col-md-6 text-center">
-          <div class="main-pic text-center">
-            <img src="./Images/ProfilePic.png"  alt="Self Portrait of Karizma on a gradient background" class=" mw-100">
-          </div>
-        </div>    -->
-      </div>
-      <div class="row justify content-center min-vh-100">
-        
-      </div>
+    </form>
 
   </div>
-</section>
 
 
 
