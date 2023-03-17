@@ -25,13 +25,24 @@ body{
 
 .container-fluid .left{
   position: relative;
-  background-color: #915dff;
+  background: rgba(24, 0, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(24, 0, 255, 0.3);
   padding: 40px;
 }
 
 .container-fluid .right{
   position: relative;
   padding: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .about{
@@ -83,10 +94,6 @@ body{
   color: #ff71f3;
 }
 
-.container-fluid .right{
-  background-color: #ffffff;
-  padding: 40px;
-}
 
 .contact ul li span{
   color: white;
@@ -122,7 +129,7 @@ body{
   width: 100%;
   height: 6px;
   display: block;
-  background:#50338e;
+  background:rgba(24, 0, 255, 0.2);
   margin-top: 5px;
 }
 
@@ -161,6 +168,7 @@ h2 span{
   font-family: 'Prompt', sans-serif;
   font-size: 24px;
   margin-bottom: 10px;
+  padding-top: 20px;
 }
 
 p{
@@ -190,30 +198,24 @@ p{
   color: #ff71f3;
 }
 
-.skillsBox ul li{
+.skills .skillsBox{
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.skills .skillsBox ul li{
   list-style: none;
 }
 
-.skillsBox ul li .icon{
+.skills .skillsBox ul li .icon{
   color: #ff71f3;
 }
 
-
-
-
-
-
-
-
-
-/* .container-fluid{
-  width: auto;
-  height: 100vh;
-  margin: 0px 20px 0px 20px;
-}
-
-.btn{
-  color: #ffffff;
-  background-color: #915dff;
-  margin: 10px 0px 10px 20px;
-} */
+.skills .skillsBox ul li .text{
+  color: rgb(101, 101, 101);
+  font-size: 20px;
+  text-transform: uppercase;
