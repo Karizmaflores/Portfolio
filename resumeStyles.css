@@ -5,7 +5,15 @@
 }
 
 body{
-  background-color: rgb(0, 0, 0);
+  background-image: url(./Images/PortfolioBg\ \(1\).png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
 }
 
 .container-fluid{
