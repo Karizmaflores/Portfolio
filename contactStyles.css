@@ -32,6 +32,13 @@ a{
   margin: 30px 0px 30px 0px;
 }
 
+.btn:hover{
+  color:#915dff;
+  background-color: #ffffff;
+  border: 2px solid #915dff;
+  
+}
+
 p {
   font-family: "open sans";
   font-size: 20px;

@@ -13,8 +13,6 @@ body{
   color: rgb(255, 255, 255);
 }
 
-
-
 a{
   font-family: 'Open Sans', sans-serif;
   color: rgb(255, 255, 255);
@@ -30,14 +28,20 @@ a{
 
 .btn{
   color: #ffffff;
-  background-color: #915dff;
+  /* background-color: #915dff; */
   margin: 50px 0px 10px 20px;
   width: 150px;
+  border: 2px solid #915dff;
+}
+
+.btn:hover{
+  background-color: #915dff;
+  color: white;
 }
 
 p {
   font-family: "open sans";
-  font-size: 20px;
+  font-size: 30px;
   color: rgb(255, 255, 255);
   margin: 0px;
   padding: 20px 0px 20px 20px;

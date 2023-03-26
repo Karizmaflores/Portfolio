@@ -25,8 +25,15 @@ a{
 
 .btn{
   color: #ffffff;
+  /* background-color: #915dff; */
+  margin: 50px 0px 10px 20px;
+  width: 150px;
+  border: 2px solid #915dff;
+}
+
+.btn:hover{
   background-color: #915dff;
-  margin: 10px 0px 10px 20px;
+  color: white;
 }
 
 p {
